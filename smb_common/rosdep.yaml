@@ -1,0 +1,5 @@
+
+smb_common:
+  ubuntu:
+    ros-noetic-smb-common:
+      apt: [ros-noetic-smb-common]
