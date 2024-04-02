@@ -23,10 +23,6 @@ catkin_make
 source devel/setup.bash
 ```
 
-OR
-
-```bash
-source devel/setup.sh
 ```
 
 ## Usage
@@ -50,10 +46,6 @@ source devel/setup.bash
 ```
 
 OR
-
-```bash
-source devel/setup.sh
-```
 
 ## Running the Turtlesim
 
