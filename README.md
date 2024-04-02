@@ -1,66 +1,26 @@
+# pub_sub_tasks
 
----
+## Description
 
-# Turtlesim Circle Drawing
+Welcome to the pub_sub_tasks project! This repository contains several packages, each designed to handle different aspects of task distribution using the publish-subscribe pattern. Each package comes with its own README file to guide you through the installation process and provide any necessary instructions for using the package effectively.
 
-This repository provides instructions on how to run the Turtlesim simulation and make it draw a circle.
+## Installation
 
-## Requirement
-
-You need to be on Ubuntu version 20.04 with ROS already installed.
-
-## Creating Catkin Workspace
-
-In your terminal:
-
-```bash
-mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws
-catkin_make
-```
-
-```bash
-source devel/setup.bash
-```
+To install any of the packages contained in this repository, please follow the steps outlined in the respective README file located within each package directory. Each README file provides detailed instructions tailored to the specific package it corresponds to.
 
 ## Usage
 
-To use the `my_robot_controller` package, clone this repository into the `src` folder of your catkin workspace:
+Once you have installed the desired package(s), you can begin using them according to your project's needs. Refer to the documentation and examples provided within each package directory for guidance on how to effectively utilize the features and functionality offered by the package.
 
-```bash
-cd ~/catkin_ws/src
-git clone https://github.com/KiengYang/Turtlebot-Publish-Subscriber.git
-```
+## Contributing
 
-Then build the workspace with `catkin_make` and source the new package:
+We welcome contributions from the community to help improve our project. If you would like to contribute, please follow these steps:
 
-```bash
-cd ~/catkin_ws
-catkin_make
-```
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and ensure that the code is properly tested.
+4. Submit a pull request with a clear description of your changes.
 
-```bash
-source devel/setup.bash
-```
+## License
 
-
-## Running the Turtlesim
-
-Open a terminal and run:
-
-```bash
-roscore
-```
-
-```bash
-rosrun turtlesim turtlesim_node
-```
-
-```bash
-rosrun my_robot_controller circle.py
-```
-
-You should now see the turtle drawing a circle.
-
----
-
+[MIT License](LICENSE)
