@@ -76,4 +76,3 @@ You should now see the turtle drawing a circle.
 
 ---
 
-You can copy this README template and paste it into your GitHub repository's README.md file. Make sure to update any placeholders or URLs with the correct information specific to your project. If you have any additional sections or information you'd like to include in your README, feel free to modify or expand upon it as needed.
