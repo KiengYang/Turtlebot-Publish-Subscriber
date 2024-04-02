@@ -23,8 +23,6 @@ catkin_make
 source devel/setup.bash
 ```
 
-```
-
 ## Usage
 
 To use the `my_robot_controller` package, clone this repository into the `src` folder of your catkin workspace:
