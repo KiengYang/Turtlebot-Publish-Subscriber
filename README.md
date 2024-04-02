@@ -45,7 +45,6 @@ catkin_make
 source devel/setup.bash
 ```
 
-OR
 
 ## Running the Turtlesim
 
