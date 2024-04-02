@@ -9,6 +9,15 @@ This repository provides instructions on how to run Gazebo
 
 You need to be on Ubuntu version 20.04 with ROS already installed.
 
+## Usage
+
+To use the package, clone this repository into the `src` folder of your catkin workspace:
+
+```bash
+cd ~/catkin_ws/src
+git clone https://github.com/KiengYang/Turtlebot-Publish-Subscriber.git
+```
+
 ## Creating Catkin Workspace
 
 In your terminal:
@@ -21,15 +30,6 @@ catkin_make
 
 ```bash
 source devel/setup.bash
-```
-
-## Usage
-
-To use the package, clone this repository into the `src` folder of your catkin workspace:
-
-```bash
-cd ~/catkin_ws/src
-git clone https://github.com/KiengYang/Turtlebot-Publish-Subscriber.git
 ```
 
 ## Running the Turtlesim
